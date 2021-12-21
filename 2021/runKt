@@ -1,0 +1,3 @@
+input=${2:-input.txt}
+kotlinc -d temp $1/Main.kt && kotlin -cp temp MainKt < $1/$input
+
